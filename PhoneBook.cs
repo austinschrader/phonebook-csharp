@@ -42,6 +42,15 @@ class PhoneBook {
   }
 
   static void LookUpContact() {
-    // Nothing
+    Console.WriteLine("CONTACT LOOKUP");
+    Console.WriteLine("Whose number would you like to look up?");
+    string friend = Console.ReadLine();
+    if (phoneNumbers.ContainsKey(friend)) {
+      string value = phoneNumbers[friend];
+      Console.WriteLine(friend + "\'s phone number is " + value);
+    } else {
+      Console.WriteLine("That person is not in your phone book");
+    }
+    Main();
   }
 }

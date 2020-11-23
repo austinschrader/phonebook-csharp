@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\austi\\Desktop\\Projects\\phonebook\\PhoneBook.csproj": {}
+    "C:\\Users\\austi\\Desktop\\Projects\\phonebook\\PhoneBook.csproj": {}
   },
   "projects": {
-    "c:\\Users\\austi\\Desktop\\Projects\\phonebook\\PhoneBook.csproj": {
+    "C:\\Users\\austi\\Desktop\\Projects\\phonebook\\PhoneBook.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\austi\\Desktop\\Projects\\phonebook\\PhoneBook.csproj",
+        "projectUniqueName": "C:\\Users\\austi\\Desktop\\Projects\\phonebook\\PhoneBook.csproj",
         "projectName": "PhoneBook",
-        "projectPath": "c:\\Users\\austi\\Desktop\\Projects\\phonebook\\PhoneBook.csproj",
+        "projectPath": "C:\\Users\\austi\\Desktop\\Projects\\phonebook\\PhoneBook.csproj",
         "packagesPath": "C:\\Users\\austi\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\austi\\Desktop\\Projects\\phonebook\\obj\\",
+        "outputPath": "C:\\Users\\austi\\Desktop\\Projects\\phonebook\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
