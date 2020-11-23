@@ -28,7 +28,17 @@ class PhoneBook {
   }
 
   static void AddContact() {
-    // Nothing
+    Console.WriteLine("NEW CONTACT");
+    Console.WriteLine("Enter a new contact name");
+    string name = Console.ReadLine();
+    Console.WriteLine("Enter a new phone number");
+    string number = Console.ReadLine();
+    if (phoneNumbers.ContainsKey(name)) {
+      Console.WriteLine("That person is already in your phone book. Their number is " + phoneNumbers[name]);
+    } else {
+      phoneNumbers.Add(name, number);
+    }
+    Main();
   }
 
   static void LookUpContact() {
